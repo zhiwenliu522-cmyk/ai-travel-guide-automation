@@ -42,8 +42,8 @@
 Windows PowerShell：
 
 ```powershell
-git clone <repository-url>
-Set-Location .\AI旅行攻略自动化定制系统
+git clone https://github.com/zhiwenliu522-cmyk/ai-travel-guide-automation.git
+Set-Location .\ai-travel-guide-automation
 powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
 ```
 
