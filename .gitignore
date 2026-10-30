@@ -1,0 +1,40 @@
+# Customer and generated documents
+*.docx
+*.doc
+*.pdf
+*.zip
+
+# Images and screenshots may contain personal or licensed content
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Local work products
+output/
+work/
+qa_*/
+*_work/
+reference-reuse-contract.json
+restaurant-evidence.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+

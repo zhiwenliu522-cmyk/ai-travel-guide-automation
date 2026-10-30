@@ -1,0 +1,4 @@
+interface:
+  display_name: "旅游攻略定制"
+  short_description: "按成品图文节奏与本地评论证据制作可交付旅游攻略 Word"
+  default_prompt: "Use $customize-travel-guide to create a directly deliverable illustrated Word guide, reusing the closest same-city content blocks when available and researching route-matched restaurants from substantive local-IP comments before map verification."

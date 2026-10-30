@@ -1,0 +1,19 @@
+name: Validate project
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate package
+        run: python scripts/validate_project.py
+      - name: Check audit command
+        run: python skills/customize-travel-guide/scripts/reference_fidelity_audit.py --help
+
