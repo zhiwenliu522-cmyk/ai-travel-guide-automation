@@ -78,6 +78,6 @@ python -X utf8 .\skills\customize-travel-guide\scripts\reference_fidelity_audit.
 
 ## 许可
 
-当前项目未附开源许可证，默认保留全部权利。若计划公开开源，请在发布前选择并添加合适的许可证。
+本项目采用 [MIT License](LICENSE) 开源许可证。你可以使用、修改和分发本项目，但须保留原始版权与许可证声明。
 
 
